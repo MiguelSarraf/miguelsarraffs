@@ -44,9 +44,9 @@ if st.session_state.page=="inicio":
 
 	st.download_button(message["curriculo"][lgg], data=open("./CV_pt.pdf", "rb"), file_name="CV_Miguel_Sarraf.pdf")
 
-	abas=[st.sidebar.button("Perfis"),
-		  st.sidebar.button("Trabalhos"),
-		  st.sidebar.button("Certificados")]
+	abas=[st.sidebar.button(message["links"][lgg]),
+		  st.sidebar.button(message["trabs"][lgg]),
+		  st.sidebar.button(message["certs"][lgg])]
 
 	if any(abas):
 		if abas[0]:
@@ -152,9 +152,9 @@ if st.session_state.page=="links":
     unsafe_allow_html=True
 	)
 
-	abas=[st.sidebar.button("Início"),
-		  st.sidebar.button("Trabalhos"),
-		  st.sidebar.button("Certificados")]
+	abas=[st.sidebar.button(message["inicio"][lgg]),
+		  st.sidebar.button(message["trabs"][lgg]),
+		  st.sidebar.button(message["certs"][lgg])]
 
 	if any(abas):
 		if abas[0]:
@@ -178,9 +178,9 @@ if st.session_state.page=="trabs":
 	cols=st.columns(3)
 	cols[0].download_button("Uma Proposta para Aprendizado Computacional Inspirada no Aprendizado e Desenvolvimento Humano", data=open("./trabalhos/TCC_Miguel_RR.pdf", "rb"), file_name="uma_proposta_para_aprendizado_computacional_inspirada_no_aprendizado_e_desenvolvimento_humano.pdf", help=message['tcc'][lgg])
 
-	abas=[st.sidebar.button("Perfis"),
-		  st.sidebar.button("Início"),
-		  st.sidebar.button("Certificados")]
+	abas=[st.sidebar.button(message["links"][lgg]),
+		  st.sidebar.button(message["inicio"][lgg]),
+		  st.sidebar.button(message["certs"][lgg])]
 
 	if any(abas):
 		if abas[0]:
@@ -231,9 +231,9 @@ if st.session_state.page=="certs":
 	cols[2].image("./certificados/Semana_de_arte_moderna_2021.png")
 	cols[2].write(f"<p style='text-align: center'> {message['semanaartemoderna'][lgg]} </p>", unsafe_allow_html=True)
 
-	abas=[st.sidebar.button("Perfis"),
-		  st.sidebar.button("Trabalhos"),
-		  st.sidebar.button("Início")]
+	abas=[st.sidebar.button(message["links"][lgg]),
+		  st.sidebar.button(message["trabs"][lgg]),
+		  st.sidebar.button(message["inicio"][lgg])]
 
 	if any(abas):
 		if abas[0]:

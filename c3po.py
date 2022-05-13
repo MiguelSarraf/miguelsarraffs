@@ -108,5 +108,21 @@ message={
 		"semanaartemoderna":{
 			"en":"1922's Modern Art Week course",
 			"pt":"Curso sobre a Semana de Arte Moderna de 1922"
+		},
+		"inicio":{
+			"en":"Start",
+			"pt":"Início"
+		},
+		"links":{
+			"en":"Profiles",
+			"pt":"Perfis"
+		},
+		"certs":{
+			"en":"Certificates",
+			"pt":"Certificados"
+		},
+		"trabs":{
+			"en":"Work",
+			"pt":"Trabalhos"
 		}
 	}
