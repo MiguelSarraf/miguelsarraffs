@@ -65,8 +65,7 @@ if st.session_state.page=="links":
 	with cols[1]:
 		lgg=st.selectbox("", ("pt", "en"), format_func=format_lgg, index=0)
 
-	st.header("Perfis")
-	st.subheader("Desenvolvimento")
+	st.subheader(message["dev"][lgg])
 	desenvolvimento=st.columns(5)
 	desenvolvimento[0].markdown('''
 	<a href="https://github.com/MiguelSarraf" style="text-align: center" target="_blank">
@@ -84,7 +83,7 @@ if st.session_state.page=="links":
 	desenvolvimento[1].write(f"<p style='text-align: center'> {message['poli'][lgg]} </p>", unsafe_allow_html=True)
 
 
-	st.subheader("Formação acadêmica, certificados e insígnias")
+	st.subheader(message["formacad"][lgg])
 	cursos=st.columns(5)
 	cursos[0].markdown('''
 	<a href="http://lattes.cnpq.br/2053096155107400" target="_blank">
@@ -106,7 +105,7 @@ if st.session_state.page=="links":
 	)
 
 
-	st.subheader("Contato")
+	st.subheader(message["contato"][lgg])
 	contato=st.columns(5)
 	contato[0].markdown('''
 	<a href="linkedin.com/in/miguel-sarraf-ferreira-santucci-6163b251" target="_blank">
@@ -137,7 +136,7 @@ if st.session_state.page=="links":
 	contato[3].write(f"<p style='text-align: center; margin:0px 0px 0px 25px'> {message['academico'][lgg]} </p>", unsafe_allow_html=True)
 
 
-	st.subheader("Miscelânea")
+	st.subheader(message["misc"][lgg])
 	misc=st.columns(5)
 	misc[0].markdown('''
 	<a href="https://www.16personalities.com/profiles/15d00765b9bd2" target="_blank">
@@ -199,7 +198,7 @@ if st.session_state.page=="certs":
 	with cols[1]:
 		lgg=st.selectbox("", ("pt", "en"), format_func=format_lgg, index=0)
 
-	st.header("Computação")
+	st.header(message["comp"][lgg])
 
 	cols=st.columns(3)
 	cols[0].image("./certificados/TCC_mencao_honrosa_corrigido.png")
@@ -213,7 +212,7 @@ if st.session_state.page=="certs":
 	cols[0].image("./certificados/data_science_math_skills.png")
 	cols[0].write(f"<p style='text-align: center'> {message['matdata'][lgg]} </p>", unsafe_allow_html=True)
 
-	st.header("Escrita")
+	st.header(message["escrita"][lgg])
 
 	cols=st.columns(3)
 	cols[0].image("./certificados/craft_of_a_plot.png")
@@ -221,7 +220,7 @@ if st.session_state.page=="certs":
 	cols[1].image("./certificados/craft_of_a_character.png")
 	cols[1].write(f"<p style='text-align: center'> {message['character'][lgg]} </p>", unsafe_allow_html=True)
 
-	st.header("Miscelânea")
+	st.header(message["misc"][lgg])
 
 	cols=st.columns(3)
 	cols[0].image("./certificados/Cenopoesia.png")

@@ -124,5 +124,29 @@ message={
 		"trabs":{
 			"en":"Work",
 			"pt":"Trabalhos"
+		},
+		"dev":{
+			"en":"Development",
+			"pt":"Desenvolvimento"
+		},
+		"formacad":{
+			"en":"Academic background, certifications and badges",
+			"pt":"Formação acadêmica, certificados e insígnias"
+		},
+		"contato":{
+			"en":"Contact",
+			"pt":"Contato"
+		},
+		"misc":{
+			"en":"Miscellaneous",
+			"pt":"Miscelânea"
+		},
+		"comp":{
+			"en":"Computation",
+			"pt":"Computação"
+		},
+		"escrita":{
+			"en":"Writing",
+			"pt":"Escrita"
 		}
 	}
