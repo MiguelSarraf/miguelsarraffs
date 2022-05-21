@@ -227,8 +227,10 @@ if st.session_state.page=="certs":
 	cols[0].write(f"<p style='text-align: center'> {message['cenopoesia'][lgg]} </p>", unsafe_allow_html=True)
 	cols[1].image("./certificados/murilo_mendes.png")
 	cols[1].write(f"<p style='text-align: center'> {message['murilomendes'][lgg]} </p>", unsafe_allow_html=True)
-	cols[2].image("./certificados/Semana_de_arte_moderna_2021.png")
-	cols[2].write(f"<p style='text-align: center'> {message['semanaartemoderna'][lgg]} </p>", unsafe_allow_html=True)
+	cols[2].image("./certificados/lima_barreto.png")
+	cols[2].write(f"<p style='text-align: center'> {message['limabarreto'][lgg]} </p>", unsafe_allow_html=True)
+	cols[0].image("./certificados/Semana_de_arte_moderna_2021.png")
+	cols[0].write(f"<p style='text-align: center'> {message['semanaartemoderna'][lgg]} </p>", unsafe_allow_html=True)
 
 	abas=[st.sidebar.button(message["links"][lgg]),
 		  st.sidebar.button(message["trabs"][lgg]),

@@ -105,6 +105,10 @@ message={
 			"en":"Course about Murilo Mendes",
 			"pt":"Curso sobre Murilo Mendes"
 		},
+		"limabarreto":{
+			"en":"Course about Lima Barreto",
+			"pt":"Curso sobre Lima Barreto"
+		},
 		"semanaartemoderna":{
 			"en":"1922's Modern Art Week course",
 			"pt":"Curso sobre a Semana de Arte Moderna de 1922"
