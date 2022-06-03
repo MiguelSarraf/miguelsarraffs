@@ -78,6 +78,10 @@ message={
 			"pt":"Menção honrosa pelo TCC"
 		},
 		"az900":{
+			"en":"Azure Fundamentals Certification",
+			"pt":"Certificação Azure Fundamentals"
+		},
+		"dp900":{
 			"en":"Azure Data Fundamentals Certification",
 			"pt":"Certificação Azure Data Fundamentals"
 		},

@@ -201,16 +201,18 @@ if st.session_state.page=="certs":
 	st.header(message["comp"][lgg])
 
 	cols=st.columns(3)
-	cols[0].image("./certificados/TCC_mencao_honrosa_corrigido.png")
-	cols[0].write(f"<p style='text-align: center'> {message['mencao'][lgg]} </p>", unsafe_allow_html=True)
+	cols[0].image("./certificados/DP-900_certificate.png")
+	cols[0].write(f"<p style='text-align: center'> {message['dp900'][lgg]} </p>", unsafe_allow_html=True)
 	cols[1].image("./certificados/AZ-900_certificate.png")
 	cols[1].write(f"<p style='text-align: center'> {message['az900'][lgg]} </p>", unsafe_allow_html=True)
-	cols[2].image("./certificados/fundamentals_of_data_visualization.png")
-	cols[2].write(f"<p style='text-align: center'> {message['datavis'][lgg]} </p>", unsafe_allow_html=True)
+	cols[2].image("./certificados/data_science_math_skills.png")
+	cols[2].write(f"<p style='text-align: center'> {message['matdata'][lgg]} </p>", unsafe_allow_html=True)
 
 	cols=st.columns(3)
-	cols[0].image("./certificados/data_science_math_skills.png")
-	cols[0].write(f"<p style='text-align: center'> {message['matdata'][lgg]} </p>", unsafe_allow_html=True)
+	cols[0].image("./certificados/fundamentals_of_data_visualization.png")
+	cols[0].write(f"<p style='text-align: center'> {message['datavis'][lgg]} </p>", unsafe_allow_html=True)
+	cols[1].image("./certificados/TCC_mencao_honrosa_corrigido.png")
+	cols[1].write(f"<p style='text-align: center'> {message['mencao'][lgg]} </p>", unsafe_allow_html=True)
 
 	st.header(message["escrita"][lgg])
 
