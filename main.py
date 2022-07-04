@@ -14,6 +14,7 @@ __current_position__="programador sênior"
 
 bandeiras= {"pt": "🇧🇷",
 			"en": "🇬🇧"}
+			# "tl": "🖖"}
 
 def format_lgg(label):
 	global bandeiras
@@ -221,6 +222,8 @@ if st.session_state.page=="certs":
 	cols[0].write(f"<p style='text-align: center'> {message['plot'][lgg]} </p>", unsafe_allow_html=True)
 	cols[1].image("./certificados/craft_of_a_character.png")
 	cols[1].write(f"<p style='text-align: center'> {message['character'][lgg]} </p>", unsafe_allow_html=True)
+	cols[2].image("./certificados/craft_of_setting_and_description.png")
+	cols[2].write(f"<p style='text-align: center'> {message['setting'][lgg]} </p>", unsafe_allow_html=True)
 
 	st.header(message["misc"][lgg])
 
@@ -231,8 +234,11 @@ if st.session_state.page=="certs":
 	cols[1].write(f"<p style='text-align: center'> {message['murilomendes'][lgg]} </p>", unsafe_allow_html=True)
 	cols[2].image("./certificados/lima_barreto.png")
 	cols[2].write(f"<p style='text-align: center'> {message['limabarreto'][lgg]} </p>", unsafe_allow_html=True)
+
 	cols[0].image("./certificados/Semana_de_arte_moderna_2021.png")
 	cols[0].write(f"<p style='text-align: center'> {message['semanaartemoderna'][lgg]} </p>", unsafe_allow_html=True)
+	cols[1].image("./certificados/literatura_classica_tag.png")
+	cols[1].write(f"<p style='text-align: center'> {message['literaturaclassica'][lgg]} </p>", unsafe_allow_html=True)
 
 	abas=[st.sidebar.button(message["links"][lgg]),
 		  st.sidebar.button(message["trabs"][lgg]),

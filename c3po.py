@@ -1,11 +1,13 @@
 message={
 		"languages":{
 			"en":"English",
-			"pt":"Português"
+			"pt":"Português",
+			"tl":"Klingon"
 		},
 		"oi":{
 			"en":":point_left: Hi, this is me! Why would I put someone else's photo here, anyway?",
-			"pt":":point_left: Olá, este sou eu! Afinal, por que eu colocaria a foto de outra pessoa aqui?"
+			"pt":":point_left: Olá, este sou eu! Afinal, por que eu colocaria a foto de outra pessoa aqui?",
+			"tl":":point_left: nuqneH, Dochvam jIH! Vaj qatlh naDev latlh mIllogh vIHotlh?"
 		},
 		"filme":{
 			"en":"My favorite movie? Star Wars",
@@ -101,6 +103,10 @@ message={
 			"en":"Creative Writing: The craft of a Character",
 			"pt":"Escrita criativa: Construção de personagem"
 		},
+		"setting":{
+			"en":"Creative Writing: The craft of Setting and Description",
+			"pt":"Escrita criativa: Construção de ambiente e descrição"
+		},
 		"cenopoesia":{
 			"en":"Cenopoetry course",
 			"pt":"Curso de cenopoesia"
@@ -116,6 +122,10 @@ message={
 		"semanaartemoderna":{
 			"en":"1922's Modern Art Week course",
 			"pt":"Curso sobre a Semana de Arte Moderna de 1922"
+		},
+		"literaturaclassica":{
+			"en":"Classical literature (and beyond)",
+			"pt":"Literatura clássica (e além)"
 		},
 		"inicio":{
 			"en":"Start",
