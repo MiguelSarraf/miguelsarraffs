@@ -2,7 +2,7 @@ message={
 		"languages":{
 			"en":"English",
 			"pt":"Português",
-			"tl":"Klingon"
+			"tl":"tlhIngan"
 		},
 		"oi":{
 			"en":":point_left: Hi, this is me! Why would I put someone else's photo here, anyway?",
@@ -87,6 +87,10 @@ message={
 			"en":"Azure Data Fundamentals Certification",
 			"pt":"Certificação Azure Data Fundamentals"
 		},
+		"complex":{
+			"en":"Introduction to complex analysis",
+			"pt":"Instrodução a análise complexa"
+		},
 		"datavis":{
 			"en":"Fundamentals of data visualization course",
 			"pt":"Curso de visualização de dados"
@@ -160,8 +164,9 @@ message={
 			"pt":"Miscelânea"
 		},
 		"comp":{
-			"en":"Computation",
-			"pt":"Computação"
+			"en":"Engeneering",
+			"pt":"Engenharia" ,
+			"tl":"jonpIn"
 		},
 		"escrita":{
 			"en":"Writing",
