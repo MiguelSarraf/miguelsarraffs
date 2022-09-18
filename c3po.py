@@ -7,15 +7,17 @@ message={
 		"oi":{
 			"en":":point_left: Hi, this is me! Why would I put someone else's photo here, anyway?",
 			"pt":":point_left: Olá, este sou eu! Afinal, por que eu colocaria a foto de outra pessoa aqui?",
-			"tl":":point_left: nuqneH, Dochvam jIH! Vaj qatlh naDev latlh mIllogh vIHotlh?"
+			"tl":":point_left: toH, Dochvam jIH! Vaj qatlh naDev latlh mIllogh vIHotlh?"
 		},
 		"filme":{
 			"en":"My favorite movie? Star Wars",
-			"pt":"Meu filme favorito? Star Wars"
+			"pt":"Meu filme favorito? Star Wars",
+			"tl":"lut DamaSqu'bogh ghaH 'Iv? Hov noHmey"
 		},
 		"livro":{
 			"en":"My favorite book? _One Hundred Years of Solitude_ by Gabriel García Marquez",
-			"pt":"Meu livro favorito? _Cem Anos de Solidão_ do Gabriel García Marquez"
+			"pt":"Meu livro favorito? _Cem Anos de Solidão_ do Gabriel García Marquez",
+			"tl":"paq DamaSqu'bogh ghaH nuq? Gabriel García Marquez _'ubghach wa'vatlh DISmey_ "
 		},
 		"personagem":{
 			"en":"My favorite character? Finn, from _Adventure Time_",
@@ -171,5 +173,13 @@ message={
 		"escrita":{
 			"en":"Writing",
 			"pt":"Escrita"
+		},
+		"xrintro":{
+			"en":"Introduction to AR/VR/MR/XR",
+			"pt":"Introdução à RA/RV/RM/RE"
+		},
+		"style":{
+			"en":"Creative Writing: The Craft of Style",
+			"pt":"Escrita criativa: Construção de estilo"
 		}
 	}
