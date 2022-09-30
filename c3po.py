@@ -181,5 +181,9 @@ message={
 		"style":{
 			"en":"Creative Writing: The Craft of Style",
 			"pt":"Escrita criativa: Construção de estilo"
+		},
+		"VsimpIA":{
+			"en":"Participation in the V Symposium on Artificial Intelligence from i2Ai",
+			"pt":"Participação no V Simpósio de Inteligência Artificial do i2Ai"
 		}
 	}
