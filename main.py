@@ -236,17 +236,20 @@ if st.session_state.page=="certs":
 	cols=st.columns(3)
 	cols[0].image("./certificados/craft_of_style.png")
 	cols[0].write(f"<p style='text-align: center'> {message['style'][lgg]} </p>", unsafe_allow_html=True)
+	cols[1].image("./certificados/Cenopoesia.png")
+	cols[1].write(f"<p style='text-align: center'> {message['cenopoesia'][lgg]} </p>", unsafe_allow_html=True)
 
 	st.header(message["misc"][lgg])
 
 	cols=st.columns(3)
-	cols[0].image("./certificados/Cenopoesia.png")
-	cols[0].write(f"<p style='text-align: center'> {message['cenopoesia'][lgg]} </p>", unsafe_allow_html=True)
+	cols[0].image("./certificados/AFL.png")
+	cols[0].write(f"<p style='text-align: center'> {message['afl'][lgg]} </p>", unsafe_allow_html=True)
 	cols[1].image("./certificados/murilo_mendes.png")
 	cols[1].write(f"<p style='text-align: center'> {message['murilomendes'][lgg]} </p>", unsafe_allow_html=True)
 	cols[2].image("./certificados/lima_barreto.png")
 	cols[2].write(f"<p style='text-align: center'> {message['limabarreto'][lgg]} </p>", unsafe_allow_html=True)
 
+	cols=st.columns(3)
 	cols[0].image("./certificados/Semana_de_arte_moderna_2021.png")
 	cols[0].write(f"<p style='text-align: center'> {message['semanaartemoderna'][lgg]} </p>", unsafe_allow_html=True)
 	cols[1].image("./certificados/literatura_classica_tag.png")

@@ -185,5 +185,9 @@ message={
 		"VsimpIA":{
 			"en":"Participation in the V Symposium on Artificial Intelligence from i2Ai",
 			"pt":"Participação no V Simpósio de Inteligência Artificial do i2Ai"
+		},
+		"afl":{
+			"en":"Stefanini's Leaders Formation Academy",
+			"pt":"Academia de Formação de Líderes da Stefanini"
 		}
 	}
