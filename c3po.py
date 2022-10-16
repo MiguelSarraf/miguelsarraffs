@@ -101,17 +101,9 @@ message={
 			"en":"Mathematics for data science course",
 			"pt":"Curso de matemática para ciência de dados"
 		},
-		"plot":{
-			"en":"Creative Writing: The craft of a Plot",
-			"pt":"Escrita criativa: Construção de história"
-		},
-		"character":{
-			"en":"Creative Writing: The craft of a Character",
-			"pt":"Escrita criativa: Construção de personagem"
-		},
-		"setting":{
-			"en":"Creative Writing: The craft of Setting and Description",
-			"pt":"Escrita criativa: Construção de ambiente e descrição"
+		"escrita_criativa":{
+			"en":"Creative Writing Specialization",
+			"pt":"Especialização em Escrita Criativa"
 		},
 		"cenopoesia":{
 			"en":"Cenopoetry course",
@@ -177,10 +169,6 @@ message={
 		"xrintro":{
 			"en":"Introduction to AR/VR/MR/XR",
 			"pt":"Introdução à RA/RV/RM/RE"
-		},
-		"style":{
-			"en":"Creative Writing: The Craft of Style",
-			"pt":"Escrita criativa: Construção de estilo"
 		},
 		"VsimpIA":{
 			"en":"Participation in the V Symposium on Artificial Intelligence from i2Ai",
