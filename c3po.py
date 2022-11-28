@@ -177,5 +177,9 @@ message={
 		"afl":{
 			"en":"Stefanini's Leaders Formation Academy",
 			"pt":"Academia de Formação de Líderes da Stefanini"
+		},
+		"introgcp":{
+			"en":"Introduction to Google Cloud Platform",
+			"pt":"Introdução ao Google Cloud Platform"
 		}
 	}
