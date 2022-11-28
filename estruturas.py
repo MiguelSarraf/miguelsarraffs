@@ -1,7 +1,7 @@
 #(caminho_do_arquivo, id_texto)
 certificados={
 	"comp":[
-		("./certificados/introduction_to_gcp.png.png", 
+		("./certificados/introduction_to_gcp.png", 
 			'introgcp'),
 		("./certificados/V_Simposio_IA.png", 
 			'VsimpIA'),
