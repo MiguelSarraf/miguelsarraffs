@@ -15,9 +15,9 @@ message={
 			"tl":"lut DamaSqu'bogh ghaH 'Iv? Hov noHmey"
 		},
 		"livro":{
-			"en":"My favorite book? _One Hundred Years of Solitude_ by Gabriel García Marquez",
-			"pt":"Meu livro favorito? _Cem Anos de Solidão_ do Gabriel García Marquez",
-			"tl":"paq DamaSqu'bogh ghaH nuq? Gabriel García Marquez _'ubghach wa'vatlh DISmey_ "
+			"en":"My favorite book? _The Book of Disquiet_ by Fernando Pessoa/Bernardo Soares",
+			"pt":"Meu livro favorito? _Livro do desassossego_ do Fernando Pessoa/Bernardo Soares",
+			"tl":"paq DamaSqu'bogh ghaH nuq? Fernando Pessoa/Bernardo Soares _tamHa'ghach laD_"
 		},
 		"personagem":{
 			"en":"My favorite character? Finn, from _Adventure Time_",
