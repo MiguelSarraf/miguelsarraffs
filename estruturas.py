@@ -42,8 +42,16 @@ certificados={
 
 #(caminho_do_arquivo, id_texto, nome_arquivo_saida)
 trabalhos={
+	"atual":[
+		("link",
+			"https://drive.google.com/drive/folders/18GhYKuL6su66erqhJUCdlGN9zF6xArG0?usp=sharing",
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Geogebra.svg/2048px-Geogebra.svg.png",
+			"Os Elementos",
+			"elementos")
+		],
 	"2021":[
-		("./trabalhos/TCC_Miguel_RR.pdf", 
+		("pdf",
+			"./trabalhos/TCC_Miguel_RR.pdf", 
 			'tcc',
 			"Uma Proposta para Aprendizado Computacional Inspirada no Aprendizado e Desenvolvimento Humano")
 		]
@@ -67,7 +75,7 @@ fontes={
 			None,
 			"Lattes"),
 		("https://www.coursera.org/user/4273951c189eb6ace564428544db3e77",
-			"https://www.langoly.com/wp-content/uploads/2021/09/coursera-logo-1024x1024.png",
+			"http://www.langoly.com/wp-content/uploads/2021/09/coursera-logo.png",
 			None,
 			"Coursera"),
 		("https://www.credly.com/users/miguel-sarraf-ferreira-santucci",

@@ -21,6 +21,15 @@ def format_lgg(label):
 	global bandeiras
 	return bandeiras[label]
 
+def ad_conteudo(col, tipo, caminho=None, nome=None, imagem=None, titulo=None, texto=None):
+	if tipo=="pdf":
+		arquivo=texto.replace(" ", "_")+".pdf"
+		col.download_button(texto, data=open(caminho, "rb"), file_name=arquivo, help=message[nome][lgg])
+	elif tipo=="link":
+		col.write(html_clickable_image.format(caminho, imagem, titulo), unsafe_allow_html=True)
+		if nome:
+			col.write(html_centered_text.format(message[nome][lgg]), unsafe_allow_html=True)
+
 if "page" not in st.session_state:
 	st.session_state.page="inicio"
 
@@ -109,15 +118,18 @@ if st.session_state.page=="trabs":
 
 	for secao in trabalhos:
 
-		st.header(secao)
+		st.header(message[secao][lgg] if secao in message else secao)
 		trabs=trabalhos[secao]
 		col=0
 		cols=st.columns(3)
 
 		for trab in trabs:
-			caminho, nome, texto=trab
-			arquivo=texto.replace(" ", "_")+".pdf"
-			cols[col].download_button(texto, data=open(caminho, "rb"), file_name=arquivo, help=message[nome][lgg])
+			try:
+				tipo, link, imagem, titulo, nome=trab
+				ad_conteudo(cols[col], tipo, caminho=link, imagem=imagem, titulo=titulo, nome=nome)
+			except:
+				tipo, caminho, nome, texto=trab
+				ad_conteudo(cols[col], tipo, caminho=caminho, nome=nome, texto=texto)
 
 			if col==2:
 				col=0

@@ -181,5 +181,13 @@ message={
 		"introgcp":{
 			"en":"Introduction to Google Cloud Platform",
 			"pt":"Introdução ao Google Cloud Platform"
+		},
+		"atual":{
+			"en":"In development",
+			"pt":"Em desenvolimento"
+		},
+		"elementos":{
+			"en":"Translation of The Elements into interactible Geogebra files",
+			"pt":"Tradução de Os Elementos em arquivos interativos Geogebra"
 		}
 	}
