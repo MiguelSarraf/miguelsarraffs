@@ -189,5 +189,9 @@ message={
 		"elementos":{
 			"en":"Translation of The Elements into interactible Geogebra files",
 			"pt":"Tradução de Os Elementos em arquivos interativos Geogebra"
+		},
+		"handson_dataflow":{
+			"en":"Hands-On with Dataflow course",
+			"pt":"Curso	Prática com Dataflow"
 		}
 	}

@@ -1,6 +1,8 @@
 #(caminho_do_arquivo, id_texto)
 certificados={
 	"comp":[
+		("./certificados/hands_on_with_dataflow.png",
+			'handson_dataflow'),
 		("./certificados/introduction_to_gcp.png", 
 			'introgcp'),
 		("./certificados/V_Simposio_IA.png", 
