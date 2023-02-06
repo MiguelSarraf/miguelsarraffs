@@ -29,6 +29,9 @@ def ad_conteudo(col, tipo, caminho=None, nome=None, imagem=None, titulo=None, te
 		col.write(html_clickable_image.format(caminho, imagem, titulo), unsafe_allow_html=True)
 		if nome:
 			col.write(html_centered_text.format(message[nome][lgg]), unsafe_allow_html=True)
+	elif tipo=="imagem":
+		col.image(caminho)
+		col.write(html_centered_text.format(message[nome][lgg]), unsafe_allow_html=True)
 
 if "page" not in st.session_state:
 	st.session_state.page="inicio"
@@ -84,11 +87,8 @@ if st.session_state.page=="links":
 		cols=st.columns(5)
 
 		for link in links:
-			link, imagem, nome, titulo=link
-			cols[col].write(html_clickable_image.format(link, imagem, titulo), unsafe_allow_html=True)
-			if nome:
-				cols[col].write(html_centered_text.format(message[nome][lgg]), unsafe_allow_html=True)
-
+			tipo, link, imagem, nome, titulo=link
+			ad_conteudo(cols[col], tipo, caminho=link, imagem=imagem, titulo=titulo, nome=nome)
 			if col==4:
 				col=0
 				cols=st.columns(3)
@@ -166,9 +166,8 @@ if st.session_state.page=="certs":
 		cols=st.columns(3)
 
 		for cert in certs:
-			caminho, nome=cert
-			cols[col].image(caminho)
-			cols[col].write(html_centered_text.format(message[nome][lgg]), unsafe_allow_html=True)
+			tipo, caminho, nome=cert
+			ad_conteudo(cols[col], tipo, caminho=caminho, nome=nome)
 
 			if col==2:
 				col=0
