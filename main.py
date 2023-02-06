@@ -21,15 +21,18 @@ def format_lgg(label):
 	global bandeiras
 	return bandeiras[label]
 
-def ad_conteudo(col, tipo, caminho=None, nome=None, imagem=None, titulo=None, texto=None):
+def ad_conteudo(col, tipo, args):
 	if tipo=="pdf":
+		caminho, nome, texto=args
 		arquivo=texto.replace(" ", "_")+".pdf"
 		col.download_button(texto, data=open(caminho, "rb"), file_name=arquivo, help=message[nome][lgg])
 	elif tipo=="link":
+		caminho, imagem, titulo, nome=args
 		col.write(html_clickable_image.format(caminho, imagem, titulo), unsafe_allow_html=True)
 		if nome:
 			col.write(html_centered_text.format(message[nome][lgg]), unsafe_allow_html=True)
 	elif tipo=="imagem":
+		caminho, nome=args
 		col.image(caminho)
 		col.write(html_centered_text.format(message[nome][lgg]), unsafe_allow_html=True)
 
@@ -87,8 +90,8 @@ if st.session_state.page=="links":
 		cols=st.columns(5)
 
 		for link in links:
-			tipo, link, imagem, nome, titulo=link
-			ad_conteudo(cols[col], tipo, caminho=link, imagem=imagem, titulo=titulo, nome=nome)
+			tipo, args=link
+			ad_conteudo(cols[col], tipo, args)
 			if col==4:
 				col=0
 				cols=st.columns(3)
@@ -124,12 +127,8 @@ if st.session_state.page=="trabs":
 		cols=st.columns(3)
 
 		for trab in trabs:
-			try:
-				tipo, link, imagem, titulo, nome=trab
-				ad_conteudo(cols[col], tipo, caminho=link, imagem=imagem, titulo=titulo, nome=nome)
-			except:
-				tipo, caminho, nome, texto=trab
-				ad_conteudo(cols[col], tipo, caminho=caminho, nome=nome, texto=texto)
+			tipo, args=trab
+			ad_conteudo(cols[col], tipo, args)
 
 			if col==2:
 				col=0
@@ -166,8 +165,8 @@ if st.session_state.page=="certs":
 		cols=st.columns(3)
 
 		for cert in certs:
-			tipo, caminho, nome=cert
-			ad_conteudo(cols[col], tipo, caminho=caminho, nome=nome)
+			tipo, args=cert
+			ad_conteudo(cols[col], tipo, args)
 
 			if col==2:
 				col=0
