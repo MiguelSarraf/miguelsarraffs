@@ -11,7 +11,7 @@ except:
 
 __current_work__="na Stefanini Scala"
 __current_segment__="no time de Analytics"
-__current_position__="programador sênior"
+__current_position__="analista de dados pleno"
 
 bandeiras= {"pt": "🇧🇷",
 			"en": "🇬🇧"}
