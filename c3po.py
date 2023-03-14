@@ -50,8 +50,8 @@ message={
 				Madeira de cedro, núcleo de pena de _Fênix_, 12 polegadas e meia, flexível"""
 		},
 		"trabalho":{
-			"en":"Currently I am working at Stefanini Scala, as a senior programmer in the Analytics team",
-			"pt":"Atualmente trabalho na Stefanini Scala como programador sênior no time de Analytics"
+			"en":"Currently I am working at Stefanini Scala, as a plain data analist in the Analytics team",
+			"pt":"Atualmente trabalho na Stefanini Scala como analista de dados pleno no time de Analytics"
 		},
 		"curriculo":{
 			"en":"Download here my CV! (In portuguese)",
