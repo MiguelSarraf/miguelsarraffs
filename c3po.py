@@ -193,5 +193,9 @@ message={
 		"handson_dataflow":{
 			"en":"Hands-On with Dataflow course",
 			"pt":"Curso	Prática com Dataflow"
+		},
+		"dp203":{
+			"en":"Azure Data Engineer Associate",
+			"pt":"Associado de Engenharia de Dados Azure"
 		}
 	}

@@ -2,6 +2,9 @@
 certificados={
 	"comp":[
 		("imagem",
+			("./certificados/DP-203_certificate.png",
+			'dp203')),
+		("imagem",
 			("./certificados/hands_on_with_dataflow.png",
 			'handson_dataflow')),
 		("imagem",
