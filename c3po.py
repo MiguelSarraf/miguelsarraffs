@@ -197,5 +197,13 @@ message={
 		"dp203":{
 			"en":"Azure Data Engineer Associate",
 			"pt":"Associado de Engenharia de Dados Azure"
+		},
+		"ling":{
+			"en":"Languages",
+			"pt":"Línguas"
+		},
+		"arabe_ini":{
+			"en":"Arabic course: beginner level",
+			"pt":"Curso de árabe: nível iniciante"
 		}
 	}

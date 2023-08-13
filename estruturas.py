@@ -59,6 +59,11 @@ certificados={
 		("imagem",
 			("./certificados/literatura_classica_tag.png", 
 			'literaturaclassica'))
+	],
+	"ling":[
+		("imagem",
+			("./certificados/arabe_ini.jpg",
+			"arabe_ini"))
 	]
 }
 
