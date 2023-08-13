@@ -147,6 +147,11 @@ fontes={
 			("https://www.duolingo.com/profile/Miguel689806?via=share_profile", 
 			"https://requisitos-duolingo.github.io/duolingo/images/logo.png",
 			"Duolingo",
+			None)),
+		("link",
+			("https://instagram.com/sarraf_miguel?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D", 
+			"hhttps://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1200px-Instagram-Icon.png",
+			"Instagram",
 			None))
 		]
 }
