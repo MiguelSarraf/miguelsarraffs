@@ -101,7 +101,7 @@ fontes={
 	"formacad":[
 		("link",
 			("http://lattes.cnpq.br/2053096155107400",
-			"http://exercicioepostura.com.br/wp-content/uploads/2015/03/lattes-logo-teste-249x300.png",
+			"https://www.ufpb.br/educacaofinanceira/contents/imagens/diversos/icon-lattes/@@images/image.jpeg",
 			"Lattes",
 			None)),
 		("link",
