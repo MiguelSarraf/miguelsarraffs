@@ -45,6 +45,9 @@ certificados={
 	],
 	"misc":[
 		("imagem",
+			("./certificados/ocarina.png", 
+			'ocarina')),
+		("imagem",
 			("./certificados/AFL.png", 
 			'afl')),
 		("imagem",

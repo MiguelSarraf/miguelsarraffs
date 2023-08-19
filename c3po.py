@@ -205,5 +205,9 @@ message={
 		"arabe_ini":{
 			"en":"Arabic course: beginner level",
 			"pt":"Curso de árabe: nível iniciante"
+		},
+		"ocarina":{
+			"en":"Course on how to play the ocarina",
+			"pt":"Curso sobre como tocar ocarina"
 		}
 	}
