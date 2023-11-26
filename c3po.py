@@ -209,5 +209,13 @@ message={
 		"ocarina":{
 			"en":"Course on how to play the ocarina",
 			"pt":"Curso sobre como tocar ocarina"
+		},
+		"aluraEstatPython":{
+			"en":"Course on statistics with Python",
+			"pt":"Curso de estatítica com Python"
+		},
+		"aluraML":{
+			"en":"Course on machine learning",
+			"pt":"Curso de aprendizagem de máquina"
 		}
 	}

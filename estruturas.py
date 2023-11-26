@@ -2,6 +2,12 @@
 certificados={
 	"comp":[
 		("imagem",
+			("./certificados/alura_machine_learning.png",
+			'aluraML')),
+		("imagem",
+			("./certificados/alura_estatistica_com_python.png",
+			'aluraEstatPython')),
+		("imagem",
 			("./certificados/DP-203_certificate.png",
 			'dp203')),
 		("imagem",
@@ -116,6 +122,11 @@ fontes={
 			("https://www.credly.com/users/miguel-sarraf-ferreira-santucci",
 			"https://images.credly.com/images/b685de69-03cf-402c-b8e3-62ecd0e2e949/blob.png",
 			"Credly",
+			None)),
+		("link",
+			("https://cursos.alura.com.br/user/miguel-sarraf",
+			"https://www.nerdin.com.br/img/alura_a_circulo.png",
+			"Alura",
 			None))
 	],
 	"contato":[
