@@ -217,5 +217,9 @@ message={
 		"aluraML":{
 			"en":"Course on machine learning",
 			"pt":"Curso de aprendizagem de máquina"
+		},
+		"aluraDS":{
+			"en":"Course on data science",
+			"pt":"Curso de ciência de dados"
 		}
 	}
