@@ -225,5 +225,9 @@ message={
 		"aluraDS":{
 			"en":"Course on data science",
 			"pt":"Curso de ciência de dados"
+		},
+		"banca_pratica_2023":{
+			"en":"Participation on final projects evaluation 2023",
+			"pt":"Participação na avaliação de TCCs 2023"
 		}
 	}
