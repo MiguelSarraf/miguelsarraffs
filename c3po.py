@@ -10,9 +10,9 @@ message={
 			"tl":":point_left: toH, Dochvam jIH! Vaj qatlh naDev latlh mIllogh vIHotlh?"
 		},
 		"filme":{
-			"en":"My favorite movie? Star Wars",
-			"pt":"Meu filme favorito? Star Wars",
-			"tl":"lut DamaSqu'bogh ghaH 'Iv? Hov noHmey"
+			"en":"My favorite movie? Star Wars (look at my Jedi cosplay at the left)",
+			"pt":"Meu filme favorito? Star Wars  (olha meu cosplay de Jedi na esquerda)",
+			"tl":"lut DamaSqu'bogh ghaH 'Iv? Hov noHmey (poSdaQ je'day' rurbogh SutwIj yIbej)"
 		},
 		"livro":{
 			"en":"My favorite book? _The Book of Disquiet_ by Fernando Pessoa/Bernardo Soares",

@@ -46,7 +46,7 @@ if st.session_state.page=="inicio":
 		lgg=st.selectbox("", ("pt", "en"), format_func=format_lgg, index=0)
 
 	cols=st.columns(2)
-	cols[0].image("ano_novo.png")
+	cols[0].image("perfil_jedi.jpeg")
 	cols[1].write(message["oi"][lgg])
 	cols[1].write(message["filme"][lgg])
 	cols[1].write(message["livro"][lgg])
