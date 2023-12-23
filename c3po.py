@@ -206,6 +206,10 @@ message={
 			"en":"Arabic course: beginner level",
 			"pt":"Curso de árabe: nível iniciante"
 		},
+		"arabe_b1":{
+			"en":"Arabic course: basic 1 level",
+			"pt":"Curso de árabe: nível básico 1"
+		},
 		"ocarina":{
 			"en":"Course on how to play the ocarina",
 			"pt":"Curso sobre como tocar ocarina"
