@@ -229,5 +229,13 @@ message={
 		"banca_pratica_2023":{
 			"en":"Participation on final projects evaluation 2023",
 			"pt":"Participação na avaliação de TCCs 2023"
-		}
+		},
+		"aluraMLA":{
+			"en":"Course on advanced machine learning",
+			"pt":"Curso de aprendizagem de máquina avançado"
+		},
+		"aluraNLP":{
+			"en":"Course on Natual Language Processing",
+			"pt":"Curso de Processamento de Linguagem Natural"
+		},
 	}
