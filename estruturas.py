@@ -2,6 +2,12 @@
 certificados={
 	"comp":[
 		("imagem",
+			("./certificados/alura_nlp.png",
+			'aluraNLP')),
+		("imagem",
+			("./certificados/alura_machine_learning_avancada.png",
+			'aluraMLA')),
+		("imagem",
 			("./certificados/alura_data_science.png",
 			'aluraDS')),
 		("imagem",
