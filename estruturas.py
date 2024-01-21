@@ -95,6 +95,11 @@ certificados={
 trabalhos={
 	"atual":[
 		("link",
+			("https://pypi.org/project/COIM/",
+			"https://pypi.org/static/images/logo-small.2a411bc6.svg",
+			"COIM",
+			"coim")),
+		("link",
 			("https://drive.google.com/drive/folders/18GhYKuL6su66erqhJUCdlGN9zF6xArG0?usp=sharing",
 			"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Geogebra.svg/2048px-Geogebra.svg.png",
 			"Os Elementos",

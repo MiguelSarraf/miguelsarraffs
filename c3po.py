@@ -238,4 +238,9 @@ message={
 			"en":"Course on Natual Language Processing",
 			"pt":"Curso de Processamento de Linguagem Natural"
 		},
+		"coim":{
+			"en":"Python library for inferenctial models pre-processing",
+			"pt":"Biblioteca Python para pré-processamento em modelos inferenciais",
+			"tl":"'aqwI' qaSba'bogh tlhajvaD paI'ton bobcho'"
+		}
 	}
