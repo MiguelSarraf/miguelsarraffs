@@ -242,5 +242,10 @@ message={
 			"en":"Python library for inferenctial models pre-processing",
 			"pt":"Biblioteca Python para pré-processamento em modelos inferenciais",
 			"tl":"'aqwI' qaSba'bogh tlhajvaD paI'ton bobcho'"
+		},
+		"aluraGA":{
+			"en":"Course on agile management",
+			"pt":"Curso de gestão ágil",
+			"tl":"vu'ghach mor He",
 		}
 	}

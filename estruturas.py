@@ -63,6 +63,9 @@ certificados={
 	],
 	"misc":[
 		("imagem",
+			("./certificados/alura_gestao_agil.png", 
+			'aluraGA')),
+		("imagem",
 			("./certificados/ocarina.png", 
 			'ocarina')),
 		("imagem",
