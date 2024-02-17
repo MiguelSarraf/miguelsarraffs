@@ -247,5 +247,10 @@ message={
 			"en":"Course on agile management",
 			"pt":"Curso de gestão ágil",
 			"tl":"vu'ghach mor He",
+		},
+		"pensamento_critico_1":{
+			"en":"Course on how to understand arguments",
+			"pt":"Curso de como entender argumentos",
+			"tl":"chay' ghoHtaHghach yaj vay' He",
 		}
 	}

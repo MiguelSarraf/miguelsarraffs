@@ -55,6 +55,9 @@ certificados={
 	],
 	"escrita":[
 		("imagem",
+			("./certificados/how_to_understand_arguments.png", 
+			'pensamento_critico_1')),
+		("imagem",
 			("./certificados/creative_writing.png", 
 			'escrita_criativa')),
 		("imagem",
