@@ -43,7 +43,7 @@ if st.session_state.page=="inicio":
 
 	cols=st.columns([8,1])
 	with cols[1]:
-		lgg=st.selectbox("", ("pt", "en"), format_func=format_lgg, index=0)
+		lgg=st.selectbox("language", ("pt", "en"), format_func=format_lgg, index=0, label_visibility="collapsed")
 
 	cols=st.columns(2)
 	cols[0].image("perfil_jedi.jpeg")
@@ -74,13 +74,13 @@ if st.session_state.page=="inicio":
 			st.session_state.page="certs"
 		else:
 			raise ValueError("Something weird happened. Reload page.")
-		st.experimental_rerun()
+		st.rerun()
 
 if st.session_state.page=="links":
 
 	cols=st.columns([8,1])
 	with cols[1]:
-		lgg=st.selectbox("", ("pt", "en"), format_func=format_lgg, index=0)
+		lgg=st.selectbox("language", ("pt", "en"), format_func=format_lgg, index=0, label_visibility="collapsed")
 
 	for secao in fontes:
 
@@ -111,13 +111,13 @@ if st.session_state.page=="links":
 			st.session_state.page="certs"
 		else:
 			raise ValueError("Something weird happened. Reload page.")
-		st.experimental_rerun()
+		st.rerun()
 
 if st.session_state.page=="trabs":
 
 	cols=st.columns([8,1])
 	with cols[1]:
-		lgg=st.selectbox("", ("pt", "en"), format_func=format_lgg, index=0)
+		lgg=st.selectbox("language", ("pt", "en"), format_func=format_lgg, index=0, label_visibility="collapsed")
 
 	for secao in trabalhos:
 
@@ -149,13 +149,13 @@ if st.session_state.page=="trabs":
 			st.session_state.page="certs"
 		else:
 			raise ValueError("Something weird happened. Reload page.")
-		st.experimental_rerun()
+		st.rerun()
 
 if st.session_state.page=="certs":
 
 	cols=st.columns([8,1])
 	with cols[1]:
-		lgg=st.selectbox("", ("pt", "en"), format_func=format_lgg, index=0)
+		lgg=st.selectbox("language", ("pt", "en"), format_func=format_lgg, index=0, label_visibility="collapsed")
 
 	for secao in certificados:
 
@@ -187,4 +187,4 @@ if st.session_state.page=="certs":
 			st.session_state.page="inicio"
 		else:
 			raise ValueError("Something weird happened. Reload page.")
-		st.experimental_rerun()
+		st.rerun()
