@@ -61,16 +61,19 @@ if st.session_state.page=="inicio":
 
 	st.download_button(message["curriculo"][lgg], data=open("./"+message["curriculo_path"][lgg], "rb"), file_name=message["curriculo_path"][lgg])
 
-	abas=[st.sidebar.button(message["links"][lgg]),
+	abas=[st.sidebar.button(message["inicio"][lgg]),
+		  st.sidebar.button(message["links"][lgg]),
 		  st.sidebar.button(message["trabs"][lgg]),
 		  st.sidebar.button(message["certs"][lgg])]
 
 	if any(abas):
 		if abas[0]:
-			st.session_state.page="links"
+			pass
 		elif abas[1]:
-			st.session_state.page="trabs"
+			st.session_state.page="links"
 		elif abas[2]:
+			st.session_state.page="trabs"
+		elif abas[3]:
 			st.session_state.page="certs"
 		else:
 			raise ValueError("Something weird happened. Reload page.")
@@ -99,6 +102,7 @@ if st.session_state.page=="links":
 				col+=1
 
 	abas=[st.sidebar.button(message["inicio"][lgg]),
+		  st.sidebar.button(message["links"][lgg]),
 		  st.sidebar.button(message["trabs"][lgg]),
 		  st.sidebar.button(message["certs"][lgg])]
 
@@ -106,8 +110,10 @@ if st.session_state.page=="links":
 		if abas[0]:
 			st.session_state.page="inicio"
 		elif abas[1]:
-			st.session_state.page="trabs"
+			pass
 		elif abas[2]:
+			st.session_state.page="trabs"
+		elif abas[3]:
 			st.session_state.page="certs"
 		else:
 			raise ValueError("Something weird happened. Reload page.")
@@ -136,16 +142,19 @@ if st.session_state.page=="trabs":
 			else:
 				col+=1
 
-	abas=[st.sidebar.button(message["links"][lgg]),
-		  st.sidebar.button(message["inicio"][lgg]),
+	abas=[st.sidebar.button(message["inicio"][lgg]),
+		  st.sidebar.button(message["links"][lgg]),
+		  st.sidebar.button(message["trabs"][lgg]),
 		  st.sidebar.button(message["certs"][lgg])]
 
 	if any(abas):
 		if abas[0]:
-			st.session_state.page="links"
-		elif abas[1]:
 			st.session_state.page="inicio"
+		elif abas[1]:
+			st.session_state.page="links"
 		elif abas[2]:
+			pass
+		elif abas[3]:
 			st.session_state.page="certs"
 		else:
 			raise ValueError("Something weird happened. Reload page.")
@@ -174,17 +183,20 @@ if st.session_state.page=="certs":
 			else:
 				col+=1
 
-	abas=[st.sidebar.button(message["links"][lgg]),
+	abas=[st.sidebar.button(message["inicio"][lgg]),
+		  st.sidebar.button(message["links"][lgg]),
 		  st.sidebar.button(message["trabs"][lgg]),
-		  st.sidebar.button(message["inicio"][lgg])]
+		  st.sidebar.button(message["certs"][lgg])]
 
 	if any(abas):
 		if abas[0]:
-			st.session_state.page="links"
-		elif abas[1]:
-			st.session_state.page="trabs"
-		elif abas[2]:
 			st.session_state.page="inicio"
+		elif abas[1]:
+			st.session_state.page="links"
+		elif abas[2]:
+			st.session_state.page="trabs"
+		elif abas[3]:
+			pass
 		else:
 			raise ValueError("Something weird happened. Reload page.")
 		st.rerun()
