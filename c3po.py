@@ -54,8 +54,13 @@ message={
 			"pt":"Atualmente trabalho na Stefanini Scala como analista de dados pleno no time de Analytics"
 		},
 		"curriculo":{
-			"en":"Download here my CV! (In portuguese)",
+			"en":"Download here my CV!",
 			"pt":"Baixe aqui meu currículo!"
+		},
+		"curriculo_path":{
+			"en":"CV_Miguel_Sarraf_en.pdf",
+			"pt":"CV_Miguel_Sarraf_pt.pdf",
+			"tl":"CV_Miguel_Sarraf_en.pdf"
 		},
 		"pessoal":{
 			"en":"Personal",

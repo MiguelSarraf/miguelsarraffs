@@ -59,7 +59,7 @@ if st.session_state.page=="inicio":
 	st.write(message["hp"][lgg])
 	st.write(message["trabalho"][lgg])
 
-	st.download_button(message["curriculo"][lgg], data=open("./CV_pt.pdf", "rb"), file_name="CV_Miguel_Sarraf.pdf")
+	st.download_button(message["curriculo"][lgg], data=open("./"+message["curriculo_path"][lgg], "rb"), file_name=message["curriculo_path"][lgg])
 
 	abas=[st.sidebar.button(message["links"][lgg]),
 		  st.sidebar.button(message["trabs"][lgg]),
