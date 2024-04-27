@@ -102,7 +102,7 @@ trabalhos={
 	"atual":[
 		("link",
 			("https://pypi.org/project/COIM/",
-			"https://pypi.org/static/images/logo-small.2a411bc6.svg",
+			"https://pypi.org/static/images/logo-small.8998e9d1.svg",
 			"COIM",
 			"coim")),
 		("link",
@@ -173,7 +173,7 @@ fontes={
 			"corporativo")),
 		("link",
 			("mailto: miguel.sarraf@alumni.usp.br",
-			"https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-2-1.png",
+			"https://cdn.iconscout.com/icon/free/png-256/free-gmail-2981844-2476484.png?f=webp",
 			"e-mail",
 			"academico"))
 		],
