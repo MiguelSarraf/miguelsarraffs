@@ -189,10 +189,15 @@ fontes={
 			"Duolingo",
 			None)),
 		("link",
-			("https://instagram.com/sarraf_miguel?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D", 
+			("https://instagram.com/miguel_sarraf", 
 			"https://cdn.pixabay.com/photo/2021/06/15/12/17/instagram-6338401_1280.png",
 			"Instagram",
-			None))
+			"pessoal")),
+		("link",
+			("https://instagram.com/sarraf_miguel", 
+			"https://cdn.pixabay.com/photo/2021/06/15/12/17/instagram-6338401_1280.png",
+			"Instagram",
+			"escrita"))
 		]
 }
 
