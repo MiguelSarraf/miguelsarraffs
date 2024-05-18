@@ -253,9 +253,24 @@ message={
 			"pt":"Curso de gestão ágil",
 			"tl":"vu'ghach mor He",
 		},
+		"aluraCM":{
+			"en":"Course on communication for leaders",
+			"pt":"Curso de comunicação para líderes",
+			"tl":"DevwI'vaD Qumghach He",
+		},
 		"pensamento_critico_1":{
 			"en":"Course on how to understand arguments",
 			"pt":"Curso de como entender argumentos",
 			"tl":"chay' ghoHtaHghach yaj vay' He",
-		}
+		},
+		"pensamento_critico_2":{
+			"en":"Course on how to reason deductively",
+			"pt":"Curso de como argumentar dedutivamente",
+			"tl":"chay' ghoH vay' ngoD lo'taHvIS He",
+		},
+		# "pensamento_critico_3":{
+		# 	"en":"Course on how to reason deductively",
+		# 	"pt":"Curso de como argumentar dedutivamente",
+		# 	"tl":"chay' ghoH vay' vatlhvI' lo'taHvIS He",
+		# }
 	}

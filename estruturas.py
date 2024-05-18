@@ -54,6 +54,12 @@ certificados={
 			'mencao'))
 	],
 	"escrita":[
+		# ("imagem",
+		# 	("./certificados/how_to_reason_inductively.png", 
+		# 	'pensamento_critico_3')),
+		("imagem",
+			("./certificados/how_to_reason_deductively.png", 
+			'pensamento_critico_2')),
 		("imagem",
 			("./certificados/how_to_understand_arguments.png", 
 			'pensamento_critico_1')),
@@ -65,6 +71,9 @@ certificados={
 			'cenopoesia'))
 	],
 	"misc":[
+		("imagem",
+			("./certificados/alura_comunicacao.png", 
+			'aluraCM')),
 		("imagem",
 			("./certificados/alura_gestao_agil.png", 
 			'aluraGA')),
