@@ -268,9 +268,9 @@ message={
 			"pt":"Curso de como argumentar dedutivamente",
 			"tl":"chay' ghoH vay' ngoD lo'taHvIS He",
 		},
-		# "pensamento_critico_3":{
-		# 	"en":"Course on how to reason deductively",
-		# 	"pt":"Curso de como argumentar dedutivamente",
-		# 	"tl":"chay' ghoH vay' vatlhvI' lo'taHvIS He",
-		# }
+		"pensamento_critico_3":{
+			"en":"Course on how to reason inductively",
+			"pt":"Curso de como argumentar indutivamente",
+			"tl":"chay' ghoH vay' vatlhvI' lo'taHvIS He",
+		}
 	}

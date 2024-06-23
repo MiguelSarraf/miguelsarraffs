@@ -54,9 +54,9 @@ certificados={
 			'mencao'))
 	],
 	"escrita":[
-		# ("imagem",
-		# 	("./certificados/how_to_reason_inductively.png", 
-		# 	'pensamento_critico_3')),
+		("imagem",
+			("./certificados/how_to_reason_inductively.png",
+			'pensamento_critico_3')),
 		("imagem",
 			("./certificados/how_to_reason_deductively.png", 
 			'pensamento_critico_2')),
