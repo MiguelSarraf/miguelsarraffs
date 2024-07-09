@@ -258,19 +258,9 @@ message={
 			"pt":"Curso de comunicação para líderes",
 			"tl":"DevwI'vaD Qumghach He",
 		},
-		"pensamento_critico_1":{
-			"en":"Course on how to understand arguments",
-			"pt":"Curso de como entender argumentos",
-			"tl":"chay' ghoHtaHghach yaj vay' He",
+		"pensamento_critico":{
+			"en":"Logic and critical thinking specialization",
+			"pt":"Especialização em lógica e pensamento crítico",
+			"tl":"meq buSghach chovghach je He",
 		},
-		"pensamento_critico_2":{
-			"en":"Course on how to reason deductively",
-			"pt":"Curso de como argumentar dedutivamente",
-			"tl":"chay' ghoH vay' ngoD lo'taHvIS He",
-		},
-		"pensamento_critico_3":{
-			"en":"Course on how to reason inductively",
-			"pt":"Curso de como argumentar indutivamente",
-			"tl":"chay' ghoH vay' vatlhvI' lo'taHvIS He",
-		}
 	}
