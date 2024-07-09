@@ -61,9 +61,6 @@ certificados={
 			("./certificados/creative_writing.png", 
 			'escrita_criativa')),
 		("imagem",
-			("./certificados/Cenopoesia.png", 
-			'cenopoesia')),
-		("imagem",
 			("./certificados/murilo_mendes.png", 
 			'murilomendes')),
 		("imagem",
@@ -74,7 +71,10 @@ certificados={
 			'semanaartemoderna')),
 		("imagem",
 			("./certificados/literatura_classica_tag.png", 
-			'literaturaclassica'))
+			'literaturaclassica')),
+		("imagem",
+			("./certificados/Cenopoesia.png", 
+			'cenopoesia')),
 	],
 	"misc":[
 		("imagem",
