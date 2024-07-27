@@ -263,4 +263,9 @@ message={
 			"pt":"Especialização em lógica e pensamento crítico",
 			"tl":"meq buSghach chovghach je He",
 		},
+		"aluraAAPA":{
+			"en":"Course on advanced agility approaches and practices",
+			"pt":"Curso de abordagens e práticas avançadas em agilidade",
+			"tl":"morghachvaD ghoSghach qeqghach je He"
+		}
 	}
