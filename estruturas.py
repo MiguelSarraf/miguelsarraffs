@@ -95,6 +95,9 @@ certificados={
 	],
 	"ling":[
 		("imagem",
+			("./certificados/arabe_b2.jpg",
+			"arabe_b2")),
+		("imagem",
 			("./certificados/arabe_b1.jpg",
 			"arabe_b1")),
 		("imagem",

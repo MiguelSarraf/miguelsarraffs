@@ -215,6 +215,11 @@ message={
 			"en":"Arabic course: basic 1 level",
 			"pt":"Curso de árabe: nível básico 1"
 		},
+		"arabe_b2":{
+			"en":"Arabic course: basic 2 level",
+			"pt":"Curso de árabe: nível básico 2",
+			"tl":"'arab Hol He: ghanroq cha'DIch mIw"
+		},
 		"ocarina":{
 			"en":"Course on how to play the ocarina",
 			"pt":"Curso sobre como tocar ocarina"
