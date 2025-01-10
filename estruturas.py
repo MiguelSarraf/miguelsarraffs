@@ -2,6 +2,9 @@
 certificados={
 	"comp":[
 		("imagem",
+			("./certificados/participacao_banca_pratica_2024.jpeg",
+			'banca_pratica_2024')),
+		("imagem",
 			("./certificados/alura_nlp.png",
 			'aluraNLP')),
 		("imagem",
@@ -95,6 +98,9 @@ certificados={
 	],
 	"ling":[
 		("imagem",
+			("./certificados/arabe_pi1.jpg",
+			"arabe_pi1")),
+		("imagem",
 			("./certificados/arabe_b2.jpg",
 			"arabe_b2")),
 		("imagem",
@@ -155,7 +161,7 @@ fontes={
 			None)),
 		("link",
 			("https://www.credly.com/users/miguel-sarraf-ferreira-santucci",
-			"https://images.credly.com/images/b685de69-03cf-402c-b8e3-62ecd0e2e949/blob.png",
+			"https://www.svgrepo.com/show/331358/credly.svg",
 			"Credly",
 			None)),
 		("link",

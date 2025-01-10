@@ -209,16 +209,23 @@ message={
 		},
 		"arabe_ini":{
 			"en":"Arabic course: beginner level",
-			"pt":"Curso de árabe: nível iniciante"
+			"pt":"Curso de árabe: nível iniciante",
+			"tl":"'arab Hol He: mIw taghpa'"
 		},
 		"arabe_b1":{
 			"en":"Arabic course: basic 1 level",
-			"pt":"Curso de árabe: nível básico 1"
+			"pt":"Curso de árabe: nível básico 1",
+			"tl":"'arab Hol He: mIw tagh wa'DIch"
 		},
 		"arabe_b2":{
 			"en":"Arabic course: basic 2 level",
 			"pt":"Curso de árabe: nível básico 2",
-			"tl":"'arab Hol He: ghanroq cha'DIch mIw"
+			"tl":"'arab Hol He: mIw tagh cha'DIch"
+		},
+		"arabe_pi1":{
+			"en":"Arabic course: pre-intermediate 2 level",
+			"pt":"Curso de árabe: pré-intemediário básico 2",
+			"tl":"'arab Hol He: mIw jojpa' wa'DIch"
 		},
 		"ocarina":{
 			"en":"Course on how to play the ocarina",
@@ -238,7 +245,13 @@ message={
 		},
 		"banca_pratica_2023":{
 			"en":"Participation on final projects evaluation 2023",
-			"pt":"Participação na avaliação de TCCs 2023"
+			"pt":"Participação na avaliação de TCCs 2023",
+			"tl":"2023 He Dor jInmol chovghach jeS"
+		},
+		"banca_pratica_2024":{
+			"en":"Participation on final projects evaluation 2024",
+			"pt":"Participação na avaliação de TCCs 2024",
+			"tl":"2024 He Dor jInmol chovghach jeS"
 		},
 		"aluraMLA":{
 			"en":"Course on advanced machine learning",
