@@ -223,8 +223,8 @@ message={
 			"tl":"'arab Hol He: mIw tagh cha'DIch"
 		},
 		"arabe_pi1":{
-			"en":"Arabic course: pre-intermediate 2 level",
-			"pt":"Curso de árabe: pré-intemediário básico 2",
+			"en":"Arabic course: pre-intermediate 1 level",
+			"pt":"Curso de árabe: pré-intemediário 1",
 			"tl":"'arab Hol He: mIw jojpa' wa'DIch"
 		},
 		"ocarina":{
