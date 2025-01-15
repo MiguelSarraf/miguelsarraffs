@@ -2,6 +2,9 @@
 certificados={
 	"comp":[
 		("imagem",
+			("./certificados/modelo_c4.jpeg",
+			'modeloC4')),
+		("imagem",
 			("./certificados/participacao_banca_pratica_2024.jpeg",
 			'banca_pratica_2024')),
 		("imagem",

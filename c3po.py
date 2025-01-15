@@ -285,5 +285,10 @@ message={
 			"en":"Course on advanced agility approaches and practices",
 			"pt":"Curso de abordagens e práticas avançadas em agilidade",
 			"tl":"morghachvaD ghoSghach qeqghach je He"
+		},
+		"modeloC4":{
+			"en":"Course on C4 architectural modeling",
+			"pt":"Curso de modelagem arquitetural C4",
+			"tl":"C4 wIy ghantoH chenghach He"
 		}
 	}
