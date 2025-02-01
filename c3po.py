@@ -227,6 +227,11 @@ message={
 			"pt":"Curso de árabe: pré-intemediário 1",
 			"tl":"'arab Hol He: mIw jojpa' wa'DIch"
 		},
+                "arabe_con1":{
+                        "en":"Arabic course: conversation 1",
+                        "pt":"Curso de árabe: conversação 1",
+                        "tl":"'arab Hol He: jatlhchuqghach wa'DIch"
+                },
 		"ocarina":{
 			"en":"Course on how to play the ocarina",
 			"pt":"Curso sobre como tocar ocarina"

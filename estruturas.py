@@ -100,6 +100,9 @@ certificados={
 			'afl')),
 	],
 	"ling":[
+                ("imagem",
+                        ("./certificados/arabe_con1.jpg",
+                        "arabe_con1")),
 		("imagem",
 			("./certificados/arabe_pi1.jpg",
 			"arabe_pi1")),
