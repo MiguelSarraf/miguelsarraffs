@@ -130,7 +130,17 @@ trabalhos={
 			("https://drive.google.com/drive/folders/18GhYKuL6su66erqhJUCdlGN9zF6xArG0?usp=sharing",
 			"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Geogebra.svg/2048px-Geogebra.svg.png",
 			"Os Elementos",
-			"elementos"))
+			"elementos")),
+		("link",
+			("https://relatorio-de-leituras.streamlit.app/",
+			"https://images.vexels.com/media/users/3/229082/isolated/preview/6fabc24c3830d75486725cc6d786dfbb-logotipo-dos-circulos-do-livro.png",
+			"Relatório de leituras",
+			"dash_leituras")),
+		("link",
+			("https://painel-financeiro.streamlit.app/",
+			"https://www.creativefabrica.com/wp-content/uploads/2020/02/10/Money-Logo-Graphics-1-4.jpg",
+			"Relatório de controle financeiro",
+			"dash_financeiro")),
 		],
 	"2021":[
 		("pdf",
@@ -225,5 +235,5 @@ fontes={
 html_centered_text="<p style='text-align: center'> {0} </p>"
 html_clickable_image='''
 	<a href="{0}" style="text-align: center" target="_blank">
-    	<img src="{1}" width=125px height=125px title="{2}"/>
+    	<img src="{1}" height=150px title="{2}"/>
 	</a>'''
