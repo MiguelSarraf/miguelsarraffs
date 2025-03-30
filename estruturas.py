@@ -2,6 +2,9 @@
 certificados={
 	"comp":[
 		("imagem",
+			("./certificados/image_processing.png",
+			'imageProc')),
+		("imagem",
 			("./certificados/modelo_c4.jpeg",
 			'modeloC4')),
 		("imagem",

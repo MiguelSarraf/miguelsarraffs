@@ -306,4 +306,9 @@ message={
 			"pt":"Painel de controle financeiro",
 			"tl":"Huch malja' SeH ja'ghach"
 		},
+		"imageProc":{
+			"en":"Course on image and video processing",
+			"pt":"Curso de processamento de imagem e vídeo",
+			"tl":"mIllogh HaSta je mIw He"
+		},
 	}
