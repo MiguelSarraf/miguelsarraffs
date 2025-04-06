@@ -144,6 +144,11 @@ trabalhos={
 			"https://www.creativefabrica.com/wp-content/uploads/2020/02/10/Money-Logo-Graphics-1-4.jpg",
 			"Relatório de controle financeiro",
 			"dash_financeiro")),
+		("link",
+			("https://github.com/MiguelSarraf/lightsaber",
+			"https://cdn-icons-png.flaticon.com/512/25/25231.png",
+			"Sabre de Luz",
+			"sabre_de_luz")),
 		],
 	"2021":[
 		("pdf",

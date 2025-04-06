@@ -311,4 +311,9 @@ message={
 			"pt":"Curso de processamento de imagem e vídeo",
 			"tl":"mIllogh HaSta je mIw He"
 		},
+		"sabre_de_luz":{
+			"en":"Personalized lightsaber development",
+			"pt":"Desenvolvimento de sabre de luz personalzado",
+			"tl":"tIgh tamghay yan chenmoHghach"
+		},
 	}
